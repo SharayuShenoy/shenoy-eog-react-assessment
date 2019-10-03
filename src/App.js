@@ -1,7 +1,6 @@
 import React from "react";
 import createStore from "./store";
 import { Provider } from "react-redux";
-import { ToastContainer } from "react-toastify";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import "react-toastify/dist/ReactToastify.css";
@@ -34,7 +33,6 @@ const App = props => (
       <Wrapper>
         <Header />
         <NowWhat />
-        <ToastContainer />
       </Wrapper>
     </Provider>
   </MuiThemeProvider>

@@ -14,9 +14,11 @@
     "react-scripts": "3.0.1",
     "react-toastify": "^4.4.0",
     "react-use": "^9.4.0",
+    "react-vis": "^1.11.7",
     "rebound": "^0.1.0",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.3",
+    "subscriptions-transport-ws": "^0.9.16",
     "urql": "^1.1.1"
   },
   "scripts": {
@@ -35,6 +37,12 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.15.1",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "redux-devtools-extension": "^2.13.5"
   }
 }
